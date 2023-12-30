@@ -1,0 +1,428 @@
+ main {
+        flex: 1;
+      }
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position:relative;
+  bottom: 0;
+}
+c1{
+font-size:40px; 
+font-family:Times New Roman;
+color:white;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  padding: 20px;
+  z-index: 999;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav li {
+  margin: 0 10px;
+ }
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size:30px;
+}
+nav ul li:first-child {
+      margin-right: auto;
+    }
+nav a.active {
+background-color: #555;
+  font-weight: bold;
+}
+
+body {
+  padding-top: 60px;
+}
+.neon-text {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #0074D9,
+    0 0 30px #0074D9,
+    0 0 40px #0074D9,
+    0 0 50px #0074D9;
+}
+.embossed-text {
+  color: #000;
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 2px 2px 0 #999;
+}
+.glow-text {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF00DE, 0 0 70px #FF00DE, 0 0 80px #FF00DE, 0 0 100px #FF00DE, 0 0 150px #FF00DE;
+}
+.shadow-text {
+  color: #fff;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.gradient-text {
+  background: linear-gradient(to right, #00008b, 	#e0ffff );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.shaded {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #888888;
+}
+
+.body1{
+background-image: url('https://images2.alphacoders.com/865/thumb-1920-865869.jpg');
+background-size:cover;
+color: white;
+text-align: justify;
+}
+
+.table1{
+margin: 0 auto;
+}
+
+ .td1{
+        padding-right:100px;
+        padding-left: 100px;
+       
+      }
+.p1{
+font-size: 24px;
+}
+.li2 {
+display: inline-block;
+margin-right: 20px; 
+}
+.li21 {
+display: inline-block;
+margin-right: 20px; 
+margin-left: 50px;
+}
+.table2 {
+    border-collapse: collapse;
+    margin: auto
+  
+  }
+
+
+ .td21 {
+      
+        border: none;
+       border-bottom: 1px solid white;
+      padding-bottom: 15px;
+       padding-top: 15px;
+       padding-left:50px;
+      }
+      
+.h1{
+padding-left: 300px
+}
+ .td22
+ {
+ padding-left:1050px;
+  border: none;
+       border-bottom: 1px solid white;
+      padding-bottom: 15px;
+       padding-top: 15px;
+       } 
+ .imgs{
+     padding-left: 50px;
+  }
+img:hover:not(#no-hover) {
+  transform: scale(1.1);
+}
+
+.td222{
+padding-right: 50px;
+ padding-left:50px;
+padding-bottom:50px;
+}
+.bodyarianaalbums{
+background-image: url('https://images.hdqwalls.com/download/ariana-grande-2020-rb-1920x1080.jpg');
+background-size:cover;
+text-align: justify;
+}
+.bodychrisalbums{
+background-image: url('https://wallpapers-hub.art/wallpaper-images/56365.jpg');
+background-size:cover;
+text-align: justify;
+}
+.bodyselenaalbums{
+background-image: url('https://trumpwallpapers.com/wp-content/uploads/Selena-Gomez-Wallpaper-01.jpg');
+background-size:cover;
+text-align: justify;
+}
+.bodytaylorswiftalbumspage{
+background-image: url('https://cdn.wallpapersafari.com/40/75/2Sut9D.jpg');
+background-size:cover;
+text-align: justify;
+}
+.bodykatyalbumspage{
+background-image: url('https://images3.alphacoders.com/141/141859.jpg');
+background-size:cover;
+text-align: justify;
+}
+.bodyladyalbumspage{
+background-image: url('https://images7.alphacoders.com/522/thumb-1920-522358.jpg');
+background-size:cover;
+text-align: justify;
+}
+.bodyjustinpage{
+background-image: url('https://photobest1.com/wp-content/uploads/2018/04/Justin-Bieber-Wallpaper-1920x1080-hd-09.jpg');
+background-size:cover;
+text-align: justify;
+}
+.selrare{
+color:purple;
+}
+.selenafont{
+color:#F4C2C2;
+}
+.selalfont{
+font-size:30px;
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #000;
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 2px 2px 0 #999;
+}
+.selenahead{
+font-size:40px;
+color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF00DE, 0 0 70px #FF00DE, 0 0 80px #FF00DE, 0 0 100px #FF00DE, 0 0 150px #FF00DE;
+}
+.taylorheading{
+font-style:italic;
+font-size:40px;
+ color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #0074D9,
+    0 0 30px #0074D9,
+    0 0 40px #0074D9,
+    0 0 50px #0074D9;
+}
+.taylorsalh{
+font-size:30px;
+font-family: "Times New Roman", Times, serif;
+ background: linear-gradient(to right, #FFC512, 	#00ffff );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+-webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+}
+.tsaltitle{
+color:#F0F8FF;
+}
+.tsall2{
+color:#FF1493;
+}
+.tkatyhead{
+font-size:35px;
+font-family: 'Playfair Display', serif;
+}
+.katytext{
+color:#FF00FF;
+}
+.artistpagetitle{
+font-size:100px; 
+font-family: "Times New Roman",Times, serif;
+/*background: linear-gradient(to right, #00008b, 	#e0ffff );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+ background-color: #F5DEB3 ;
+}
+.backpt{
+background: linear-gradient(to bottom,#4b0082,  #8a2be2  50%, #ff69b4);
+}
+.homehead{
+font-size:60px;
+ color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #0074D9,
+    0 0 30px #0074D9,
+    0 0 40px #0074D9,
+    0 0 50px #0074D9;
+}
+.homenames{
+font-size:30px;
+ background: linear-gradient(to right,#9400D3, 	#fff );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.chrishead{
+font-size:40px;
+color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #CD5C5C, 0 0 70px #CD5C5C, 0 0 80px #CD5C5C, 0 0 100px #CD5C5C, 0 0 150px #CD5C5C;
+}
+.chrisfonts{
+color:red;
+}
+.arianahead{
+font-size:50px;
+color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF00DE, 0 0 70px #FF00DE, 0 0 80px #FF00DE, 0 0 100px #FF00DE, 0 0 150px #FF00DE;
+}
+.justinfont{
+color:aqua;
+}
+.ladygagahead{
+font-size:60px;
+background: linear-gradient(to right,red, 	#fff );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ladyfont{
+color:violet;
+}
+.justinheadingfont{
+font-size:60px;
+background: linear-gradient(to right,aqua, 	#fff );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .bodya{
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK9GA2vLZHb97CdnW7c2jsjmpRFWinuFS0pNDYVJEwAaOTAq04');
+  background-size: cover;
+  background-position: center top;
+  
+  height: 140vh;
+  color: white;
+  }
+  .p1a{
+
+  font-size: 20px;
+   padding-left: 500px;
+  width: 50%;
+  }
+  .h1a{
+  text-align: right;
+  font-size: 100px;
+  padding-left: 200px;
+  
+  }
+ 
+.td1a
+{
+
+font-size: 16px;
+padding-left: 50px;
+width: 50%;
+
+
+}
+.td2a{
+padding-right: 100px;
+background-color: #FFCC00;
+}
+.ha1{
+font-size: 100px;
+}
+.td3a{
+padding-left: 200px;
+}
+.hda{
+padding-right: 150px;
+padding-left: 50px;
+}
+.tra{
+border-bottom: 1px solid white;
+}
+.hra{
+border-top: 1px #000;
+}
+
+.table2a{
+background-color: salmon;
+margin: auto;
+padding-left: 125px;
+padding-right: 123px;
+}
+.table3a{
+background-color: #00CC00;
+}
+.table4a{
+background-color: salmon;
+}
+.table5a{
+background-color: #99FF99;
+}
+.bodyt{
+background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701253784.jpg');
+color: white;
+background-size: cover;
+}
+.bodych{
+background-image: url('https://wallpapercave.com/wp/wp210122.jpg');
+color: white;
+background-size: cover;
+}
+.bodys{
+background-image: url('https://wallpaperaccess.com/full/1162772.jpg');
+color: white;
+background-size: cover;
+}
+.bodyl{
+background-image: url('https://cdn.wallpapersafari.com/23/64/pvnD1u.jpg');
+color: white;
+background-size: cover;
+}
+.bodyj{
+background-image: url('https://www.slidebackground.com/uploads/music-background/desktop-wallpapers-music-wallpapers-28.jpg');
+color: white;
+background-size: cover;
+}
+.bodya{
+background-image: url('https://wallpaperbat.com/img/416834-hd-guitar-wallpaper.jpg');
+color: white;
+background-size: cover;
+}
+.bodyk{
+background-image: url('https://wallpapercave.com/wp/wp5307109.jpg');
+color: white;
+background-size: cover;
+}
+.circle {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+ 
+}
+
+.circle img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.tdddd{
+padding-right: 100px; 
+padding-left:200px ;
+padding-bottom:50px;
+}
+  
